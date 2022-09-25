@@ -1,4 +1,4 @@
-FROM hub.docker.com/gitpod/workspace-full:latest 
+FROM HTTPS://hub.docker.com/r/gitpod/workspace-full
 
 USER root
 
