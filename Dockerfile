@@ -1,5 +1,6 @@
-FROM HTTPS://hub.docker.com/r/gitpod/workspace-full
+#FROM HTTPS://hub.docker.com/r/gitpod/workspace-full
 
+FROM Scratch 
 USER root
 
 # Dazzle does not rebuild a layer until one of its lines are changed. Increase this counter to rebuild this layer.
