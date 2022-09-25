@@ -1,4 +1,4 @@
-FROM hub.docker.com/gitpod/workspace-full:latest 
+FROM hub.docker.com/r/gitpod/workspace-full:latest 
 
 USER root
 
