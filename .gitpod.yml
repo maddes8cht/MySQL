@@ -1,5 +1,7 @@
 # Docker image
-image: Dockerfile
+
+image: 
+  file: Dockerfile
 #image: gitpod/workspace-mysql:latest
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
