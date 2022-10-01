@@ -2,16 +2,16 @@
     "sqltools.connections": [
         {
             "mysqlOptions": {
-                "authProtocol": "default"
+                "authProtocol": "xprotocol"
             },
             "previewLimit": 50,
             "server": "localhost",
             "port": 3306,
-            "askForPassword": false,
             "driver": "MySQL",
             "name": "Northwind",
             "database": "Northwind",
-            "username": "root"
+            "username": "root",
+            "password": ""
         }
     ]
 }
