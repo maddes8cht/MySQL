@@ -5,7 +5,9 @@ image: gitpod/workspace-mysql:latest
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - init: echo 'init script' # runs during prebuild
-    command: echo 'start script'
+    command: |
+      -mysql -u root -p northwind < Northwind/northwind.sql
+      echo 'start script'
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
