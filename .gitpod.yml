@@ -7,7 +7,7 @@ tasks:
   - init: echo 'init script' # runs during prebuild
     command: |
       mysql -e "create database Northwind"
-      mysql -u root -p northwind < Northwind/northwind.sql
+      mysql -u root -p Northwind < Northwind/northwind.sql
       mysql -e "show databases"
       echo 'start script'
 
