@@ -6,7 +6,7 @@ image: gitpod/workspace-mysql:latest
 tasks:
   - init: echo 'init script' # runs during prebuild
     command: |
-      mysql -e "create database northwind"
+      # mysql -e "create database northwind"
       mysql -u root -p northwind < Northwind/northwind.sql
       mysql -e "show databases"
       echo 'start script'
